@@ -17,7 +17,11 @@ const Nav = () => {
           <Link className="hl" to='/' >Home</Link>
         </h1>
         <h1>
-          <Link className="hl" to='/Login' >Login</Link>
+          {!user ? (
+            <Link className="hl" to='/Login' >Login</Link>
+          ) : (
+            <Link className="hl" to='/NewPost' >NewPost</Link>
+          )}
         </h1>
       </div>
       <div className="usx">

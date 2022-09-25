@@ -3,7 +3,6 @@
   background-color: transparent;
   border: 1px solid black;
 }
-
 .lg:active {
   scale: 0.8;
   background: rgb(136, 0, 0);
