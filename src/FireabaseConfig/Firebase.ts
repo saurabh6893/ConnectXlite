@@ -6,7 +6,12 @@ import { getAuth, GoogleAuthProvider } from 'firebase/auth'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  //
+  apiKey: "AIzaSyASJ0DJhIEKz0B9DW5igpLbxsIlVFVqW8Y",
+  authDomain: "connectxlite.firebaseapp.com",
+  projectId: "connectxlite",
+  storageBucket: "connectxlite.appspot.com",
+  messagingSenderId: "618669458892",
+  appId: "1:618669458892:web:7574d7a0aa61246af64969"
 };
 
 // Initialize Firebase
